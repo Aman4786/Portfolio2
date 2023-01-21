@@ -1,0 +1,130 @@
+/* body{
+    background-color:red;
+} */
+/* This is my navbar  */
+.navbar{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.navbar img{
+    margin-left: 50vw;
+    height: 50px;
+}
+.navbar ul li {
+    display: block;
+}
+
+#left{
+    display: none;
+}
+/* Section start here  */
+.section {
+    margin-top: 9vh;
+    font-size: 30px;
+}
+.container::before{
+    display: none;
+}
+/* image section */
+.container .image {
+   display: none;
+  }
+
+
+/* footer section start here  */
+.footer {
+    /* display: grid; */
+    display: flex;
+    background-color: rgb(42, 38, 38);
+    color: aliceblue;
+}
+
+.footer .whatshap{
+    background: 2px solid red;
+    display: flex;
+    /* border: 2px solid greenyellow; */
+}
+.footer .instagram{
+    /* display: flex; */
+    background: 2px solid red;
+    margin-left: 25vw;
+    /* border: 2px solid greenyellow; */
+
+}
+.footer .facebook {
+    /* display: block ; */
+    background: 2px solid red;
+    margin-left: 10vw;
+    margin: auto;
+    /* border: 2px solid greenyellow; */
+
+}
+
+.footer img{
+  display: none;
+}
+.footer button{
+    border: 5px solid rgb(97, 93, 93);
+    /* margin-top: 27px; */
+    background-color: rgb(87, 74, 131);
+    color: white;
+    border-radius: 5px;
+    font-family: "Chivo Mono", monospace;
+    cursor: pointer;
+    /* padding: 4px; */
+}
+.footer button:hover{
+    color: rgb(87, 74, 131);
+    background-color: white;
+}
+ .end {
+    font-size: bold;
+    display: flex;
+  color: yellowgreen;
+  /* margin: auto; */
+  justify-content: center;
+  /* align-items: center; */
+  padding: 2px 3px;
+  /* background-color: rgb(42, 38, 38); */
+}
+/* footer section end here  */
+
+
+    @media only screen and (min-width:250px) and (max-width:500px) {
+       
+        .navbar ul{
+            margin-left: 10vw;
+        }
+        .navbar ul li a {
+            font-family: "Baloo Bhai 2", cursive;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            font-size: 1rem;
+            color: rgb(54, 54, 214);
+          }
+        .footer{
+            display: flex;
+        }
+        .footer .whatshap{
+            background: 2px solid red;
+            display: flex;
+            /* border: 2px solid greenyellow; */
+        }
+        .footer .instagram{
+            /* display: flex; */
+            background: 2px solid red;
+            margin-left: 5vw;
+            /* border: 2px solid greenyellow; */
+        
+        }
+        .footer .facebook {
+            /* display: block ; */
+            background: 2px solid red;
+            margin-left: 10vw;
+            margin: auto;
+            /* border: 2px solid greenyellow; */
+        
+        }
+    }
